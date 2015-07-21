@@ -1,0 +1,43 @@
+---
+title: "'Using DiffCorr package to analyze and visualize differential correlation in biological networks' support page"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
+
+# Preface
+
+This is a support page about **"Using DiffCorr package to analyze and visualize differential correlation in biological networks"**. 
+
+[linkto publisher web page]()  
+[linkto Amazon]()
+
+> The R package DiffCorr affords users a simple and effective framework to detect differential correlations between 2 conditions in omics data. 
+> The approach is useful for the first step towards inferring causal relationships and detecting biomarker candidates.
+
+We have used many R (and bioconductor) packages in the book chapter, and those packages are updating day by day.
+
+Here we keep you informed on those updates and additional instructions upsupported in the book chapter.
+
+We will revise this page continually. If you have a question about this book and support page, feel free to contact kozo.nishida@gmail.com or twitter [\@kozo2](https://twitter.com/kozo2).
+
+# Important announcement
+
+- 2015 Jun 16, **ath1121501.db** package in section **3.5** does not work on version **3.1.2**. This bug is fixed in version **3.1.4**. For more detail, please see https://support.bioconductor.org/p/68997/ .
+
+# Updates
+
+- 2015 Jul, published this support page.
+
+# Related software updates
+
+- 2015 Jun 27, **ath1121501.db** 3.1.4 released.
+
+# Sample programs
+
+We will push sample programs to (https://github.com/afukushima)
+
+# Integrating R and Cytoscape
+
+By adding cyREST app (http://apps.cytoscape.org/apps/cyrest), you can programmatically controll Cytoscape with R. You can reproduce the book chapter figure 4.B and figure 7.B with just running the R script in (https://github.com/afukushima) without controlling Cytoscape GUI manually.
