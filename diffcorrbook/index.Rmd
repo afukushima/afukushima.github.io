@@ -26,6 +26,10 @@ We will revise this page continually. If you have a question about this book and
 
 - 2015 Jun 16, **ath1121501.db** package in section **3.5** does not work on version **3.1.2**. This bug is fixed in version **3.1.4**. For more detail, please see https://support.bioconductor.org/p/68997/ .
 
+# R code files
+
+You can [download the R scripts](https://github.com/afukushima/afukushima.github.io/tree/master/diffcorrbook) used in this book chapter.
+
 # Updates
 
 - 2015 Jul, published this support page.
@@ -34,9 +38,6 @@ We will revise this page continually. If you have a question about this book and
 
 - 2015 Jun 27, **ath1121501.db** 3.1.4 released.
 
-# Sample programs
-
-We will push sample programs to (https://github.com/afukushima)
 
 # Integrating R and Cytoscape
 
