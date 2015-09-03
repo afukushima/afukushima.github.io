@@ -8,15 +8,15 @@ output:
 
 # Preface
 
-This is a support page about **"Using DiffCorr package to analyze and visualize differential correlation in biological networks"**. 
+This is a support page about **"Using DiffCorr package to analyze and visualize differential correlation in biological networks"** - Book chapter in "Challenges of Computational Network Analysis with R". Editors: Matthias Dehmer, Yongtang Shi, and Frank Emmert-Streib. WILEY. 
 
-[linkto publisher web page]()  
+[linkto publisher web page](http://as.wiley.com/WileyCDA/WileyTitle/productCd-3527339582.html)  
 [linkto Amazon]()
 
 > The R package DiffCorr affords users a simple and effective framework to detect differential correlations between 2 conditions in omics data. 
 > The approach is useful for the first step towards inferring causal relationships and detecting biomarker candidates.
 
-We have used many R (and bioconductor) packages in the book chapter, and those packages are updating day by day.
+We have used many R (and Bioconductor) packages in the book chapter, and those packages are updating day by day.
 
 Here we keep you informed on those updates and additional instructions upsupported in the book chapter.
 
@@ -24,7 +24,7 @@ We will revise this page continually. If you have a question about this book and
 
 # Important announcement
 
-- 2015 Jun 16, **ath1121501.db** package in section **3.5** does not work on version **3.1.2**. This bug is fixed in version **3.1.4**. For more detail, please see https://support.bioconductor.org/p/68997/ .
+- Jun 16, 2015 **ath1121501.db** package in section **3.5** does not work on version **3.1.2**. This bug is fixed in version **3.1.4**. For more detail, please see https://support.bioconductor.org/p/68997/ .
 
 # R code files
 
@@ -32,13 +32,14 @@ You can [download the R scripts](https://github.com/afukushima/afukushima.github
 
 # Updates
 
-- 2015 Jul, published this support page.
+- Sep 3, 2015 added publisher information.
+- July 28, 2015 published this support page.
 
 # Related software updates
 
-- 2015 Jun 27, **ath1121501.db** 3.1.4 released.
+- Jun 27, 2015 **ath1121501.db** 3.1.4 released.
 
 
 # Integrating R and Cytoscape
 
-By adding cyREST app (http://apps.cytoscape.org/apps/cyrest), you can programmatically controll Cytoscape with R. You can reproduce the book chapter figure 4.B and figure 7.B with just running the R script in (https://github.com/afukushima) without controlling Cytoscape GUI manually.
+By adding cyREST app (http://apps.cytoscape.org/apps/cyrest), you can programmatically controll Cytoscape with R. You can reproduce the book chapter Figure 4.B and Figure 7.B with just running the R script in (https://github.com/afukushima) without controlling Cytoscape GUI manually.
