@@ -20,7 +20,7 @@ We have used many R (and Bioconductor) packages in the book chapter, and those p
 
 Here we keep you informed on those updates and additional instructions upsupported in the book chapter.
 
-We will revise this page continually. If you have a question about this book and support page, feel free to contact kozo.nishida@gmail.com or twitter [\@kozo2](https://twitter.com/kozo2).
+We will revise this page continually. If you have a question about this book and support page, feel free to contact us with the bottom comment system.
 
 # Important announcement
 
@@ -43,3 +43,30 @@ You can [download the R scripts](https://github.com/afukushima/afukushima.github
 # Integrating R and Cytoscape
 
 By adding cyREST app (http://apps.cytoscape.org/apps/cyrest), you can programmatically controll Cytoscape with R. You can reproduce the book chapter Figure 4.B and Figure 7.B with just running the R script in (https://github.com/afukushima) without controlling Cytoscape GUI manually.
+
+# Comments
+
+Please feel free to contact us if you have any question.
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//diffcorrbook.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
