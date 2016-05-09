@@ -4,7 +4,7 @@ biocLite(c("GEOquery", "affy", "genefilter", "GOstats", "ath1121501.db"))
 install.packages(c("spatstat", "igraph"))
 
 
-# subsection 3.1
+# Section 1.3.1 "Downloading the Transcriptome Data set"
 library(GEOquery)
 data <- getGEOSuppFiles("GSE5632")
 untar("GSE5632/GSE5632_RAW.tar", exdir="GSE5632")
@@ -12,7 +12,7 @@ data <- getGEOSuppFiles("GSE5630")
 untar("GSE5630/GSE5630_RAW.tar", exdir="GSE5630")
 
 
-# subsection 3.2
+# Section 1.3.2 "Data Filtering"
 library(affy)
 tgt <- list.files("./GSE5630", pattern = ".CEL.gz", full.names = TRUE)
 eset.GSE5630 <- justRMA(filenames = tgt)
@@ -31,7 +31,7 @@ eset.GSE5630 <- eset.GSE5630[-rmv, ]
 dim(eset.GSE5630)
 
 
-# subsection 3.3
+# Section 1.3.3 "Calculation of the Correlation and Visualization of Correlation Networks"
 library(genefilter)
 
 e.mat <- 2^exprs(eset.GSE5632)
@@ -106,7 +106,7 @@ mod3 <- membership(g1.fc)[membership(g1.fc)==3]
 mod3.p <- names(mod3)
 
 
-# subsection 3.5
+# Section 1.3.5 "Gene Ontology Enrichment Analysis"
 library(GOstats)
 library(GO.db)
 library(ath1121501.db)
