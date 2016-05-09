@@ -1,11 +1,22 @@
-# dependencies
+# Section 1.2.4 "Installing the DiffCorr Package"
+
+# If using Ubuntu, run "apt-get install libxml2-dev" first.
 source("http://bioconductor.org/biocLite.R")
-biocLite(c("GEOquery", "affy", "genefilter", "GOstats", "ath1121501.db"))
-install.packages(c("spatstat", "igraph"))
+biocLite(c("pcaMethods", "multtest"))
+install.packages("DiffCorr")
+library(DiffCorr)
+biocLite("GEOquery")
+biocLite("affy")
+biocLite("genefilter")
+biocLite("GOstats")
+biocLite("ath1121501.db")
+install.packages("spatstat")
+install.packages("igraph")
 
 
 # Section 1.3.1 "Downloading the Transcriptome Data set"
-library(GEOquery)
+
+library("GEOquery")
 data <- getGEOSuppFiles("GSE5632")
 untar("GSE5632/GSE5632_RAW.tar", exdir="GSE5632")
 data <- getGEOSuppFiles("GSE5630")
