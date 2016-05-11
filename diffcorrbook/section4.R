@@ -1,4 +1,4 @@
-source("./section3.R")
+source("https://raw.githubusercontent.com/afukushima/afukushima.github.io/master/diffcorrbook/section2to3.R")
 
 source("http://bioconductor.org/biocLite.R")
 biocLite(c("pcaMethods", "multtest"))
