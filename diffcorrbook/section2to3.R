@@ -120,6 +120,7 @@ mod2.p <- names(mod2)
 mod3 <- membership(g1.fc)[membership(g1.fc)==3]
 mod3.p <- names(mod3)
 
+
 # ========================================================================================
 # Section 1.3.5 "Gene Ontology Enrichment Analysis"
 library(GOstats)
