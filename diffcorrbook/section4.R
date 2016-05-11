@@ -5,7 +5,7 @@ biocLite(c("pcaMethods", "multtest"))
 install.packages("DiffCorr")
 library(DiffCorr)
 
-# subsection 4.1
+# Section 1.4.1 "Calculation of Differential Co-Expression between Organs in Arabidopsis"
 dim(eset.GSE5632.sub)
 dim(eset.GSE5630.sub)
 
