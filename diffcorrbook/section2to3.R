@@ -98,7 +98,7 @@ write.graph(g1, "g1forcy.gml", format = "gml")
 write.graph(g2, "g2forcy.gml", format = "gml")
 
 
-# subsection 3.4
+# Section 1.3.4 "Graph Clustering"
 g1.fc <- fastgreedy.community(g1)
 sizes(g1.fc)
 
