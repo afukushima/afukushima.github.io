@@ -1,17 +1,19 @@
 ---
-title: "'Using DiffCorr package to analyze and visualize differential correlation in biological networks' support page"
+title: "'Using the DiffCorr Package to Analyze and Visualize Differential Correlations in Biological Networks' support page"
 output:
   html_document:
     toc: true
-    theme: united
+    theme: default
 ---
 
 # Preface
 
-This is a support page about **"Using DiffCorr package to analyze and visualize differential correlation in biological networks"** - Book chapter in "Challenges of Computational Network Analysis with R". Editors: Matthias Dehmer, Yongtang Shi, and Frank Emmert-Streib. WILEY. 
+This is a support page about **"Using the DiffCorr Package to Analyze and Visualize Differential Correlations in Biological Networks"** - Book chapter in "Challenges of Computational Network Analysis with R". Editors: Matthias Dehmer, Yongtang Shi, and Frank Emmert-Streib. WILEY. 
 
-[linkto publisher web page](http://as.wiley.com/WileyCDA/WileyTitle/productCd-3527339582.html)  
-[linkto Amazon]()
+[link to publisher web page](http://as.wiley.com/WileyCDA/WileyTitle/productCd-3527339582.html)  
+[link to Google Play](https://play.google.com/store/books/details?id=U5-_DAAAQBAJ)
+
+[link to Amazon (coming soon)]()
 
 > The R package DiffCorr affords users a simple and effective framework to detect differential correlations between 2 conditions in omics data. 
 > The approach is useful for the first step towards inferring causal relationships and detecting biomarker candidates.
@@ -31,7 +33,7 @@ We will revise this page continually. If you have a question about this book and
 You can [download the R scripts](https://github.com/afukushima/afukushima.github.io/tree/master/diffcorrbook) used in this book chapter.
 
 # Updates
-
+- Aug 8, 2016 added a link to Google Play.
 - Sep 3, 2015 added publisher information.
 - July 28, 2015 published this support page.
 
